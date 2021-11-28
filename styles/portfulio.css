@@ -1,3 +1,9 @@
+:root {
+  --primary-color: rgb(248, 209, 171);
+  --secondary-color: rgb(68, 58, 58);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 body {
   background: rgb(248, 209, 171);
 }
@@ -8,11 +14,39 @@ h1 {
   font-weight: bold;
   font-size: 50px;
   margin-top: 70px;
-  padding-left: 25px;
+  padding-left: 100px;
 }
 
 p {
   color: rgb(68, 58, 58);
   font-family: "Poiret One", cursive;
   font-weight: normal;
+}
+
+.general-info {
+  background: rgb(248, 209, 171);
+  text-align: center;
+}
+
+.social-media {
+  padding-left: 100px;
+}
+.contact-btn {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.navigation-links:hover {
+  cursor: pointer;
 }
