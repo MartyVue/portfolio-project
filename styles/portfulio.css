@@ -8,19 +8,35 @@ body {
   background: rgb(248, 209, 171);
 }
 
+h1,
+h2,
+p {
+  font-family: "Poiret One", cursive;
+}
+
 h1 {
   color: rgb(68, 58, 58);
-  font-family: "Poiret One", cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 72px;
   margin-top: 70px;
-  padding-left: 100px;
+}
+
+h2 {
+  color: rgb(68, 58, 58);
+  font-weight: bold;
+  font-size: 72px;
+  margin-top: 70px;
+  padding-left: 80px;
 }
 
 p {
   color: rgb(68, 58, 58);
-  font-family: "Poiret One", cursive;
   font-weight: normal;
+}
+
+.navbar-container {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
 }
 
 .general-info {
@@ -29,12 +45,13 @@ p {
 }
 
 .social-media {
-  padding-left: 100px;
+  padding-left: 80px;
 }
 .contact-btn {
   background: var(--primary-color);
   color: white;
   box-shadow: var(--box-shadow);
+  font-family: "Poiret One", cursive;
 }
 
 .navigation-links a {
