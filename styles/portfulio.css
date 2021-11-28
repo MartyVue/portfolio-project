@@ -55,7 +55,7 @@ p {
 
 .social-media {
   text-align: left;
-  padding: 10px 635px;
+  padding: 10px 0px;
 }
 .contact-btn {
   color: var(--secondary-color);
@@ -105,4 +105,45 @@ p {
   font-size: 15px;
   text-align: left;
   padding: 10px 0px;
+}
+
+.overview-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px rgb(88, 88, 88);
+  border-radius: 0.3rem;
+}
+
+.overview-description {
+  font-size: 20px;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 33%;
+}
+
+.btn {
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  line-height: 27px;
+  padding: 12px 20px;
+  font-size: 20px;
+  background: rgb(252, 230, 206);
+  font-weight: bold;
+}
+
+.btn-outline {
+  border: rgb(252, 230, 206);
 }
