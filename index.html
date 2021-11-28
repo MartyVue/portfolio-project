@@ -30,11 +30,64 @@
   </head>
   <body>
     <div class="d-flex bg-warning">
-      <h1>Portfolio</h1>
-      <p>Martha's Porfolio</p>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-github"></i>
-      <i class="fab fa-instagram"></i>
+      <div class="navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">Martha Vue </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="general-info-container">
+        <h2 class="text-center">👋 Hi I am</h2>
+        <h1 class="text-center">Martha Vue</h1>
+        <h3 class="text-center">
+          Front-end developer, based in the United States
+        </h3>
+      </div>
+
+      <div class="navigation-links mb-5">
+        <a href="about.html#contact" class="contact-link">Contact me</a>
+        <a href="about.html" class="about-link">About me</a>
+      </div>
+
+      <div class="social-media">
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
     </div>
   </body>
 </html>
