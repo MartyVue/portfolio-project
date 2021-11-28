@@ -95,6 +95,10 @@ p {
   height: auto;
 }
 
+.img-self {
+  padding: fixed;
+}
+
 .paragraph-detail {
   color: rgb(68, 58, 58);
   font-weight: normal;
@@ -124,9 +128,9 @@ p {
   font-size: 20px;
 }
 
-.d-flex {
+/* .d-flex {
   display: flex !important;
-}
+} */
 
 .col-md-4 {
   flex: 0 0 auto;
