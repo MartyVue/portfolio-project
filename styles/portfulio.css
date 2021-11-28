@@ -58,6 +58,8 @@ p {
   line-height: 27px;
   padding: 12px 20px;
   font-size: 20px;
+  background: rgb(252, 230, 206);
+  font-weight: bold;
 }
 
 .navigation-links a {
@@ -66,11 +68,13 @@ p {
   padding: 20px 15px;
   text-decoration: none;
 }
+
 .navigation-links {
   display: flex;
   justify-content: center;
 }
-.navigation-links:hover {
+
+.general-info:hover {
   cursor: pointer;
 }
 
