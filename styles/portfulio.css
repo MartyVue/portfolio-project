@@ -4,12 +4,15 @@ body {
 
 h1 {
   color: rgb(68, 58, 58);
-  font-family: "Comforter Brush", cursive;
+  font-family: "Poiret One", cursive;
   font-weight: bold;
+  font-size: 50px;
+  margin-top: 70px;
+  padding-left: 25px;
 }
 
 p {
   color: rgb(68, 58, 58);
-  font-family: "Comforter Brush", cursive;
+  font-family: "Poiret One", cursive;
   font-weight: normal;
 }
