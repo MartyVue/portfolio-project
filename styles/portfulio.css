@@ -87,11 +87,12 @@ h3 {
 /* About Me  */
 .about-me {
   text-align: left;
-  padding: 100px 125px;
+  padding: 160px 125px;
+  margin: 30px;
 }
 
-.about-section {
-  padding: 160px 20px;
+.about-section h3 {
+  font-weight: bold;
 }
 
 .about-subheading {
@@ -113,7 +114,7 @@ h3 {
 }
 
 .img-self2 {
-  height: 375px;
+  height: 600px;
 }
 
 .rounded {
