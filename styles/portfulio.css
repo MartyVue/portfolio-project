@@ -88,7 +88,6 @@ h3 {
 .about-me {
   text-align: left;
   padding: 160px 125px;
-  margin: 30px;
 }
 
 .about-section h3 {
@@ -104,6 +103,10 @@ h3 {
   font-family: "Raleway", sans-serif;
 }
 
+.about-image {
+  text-align: center;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -114,7 +117,7 @@ h3 {
 }
 
 .img-self2 {
-  height: 600px;
+  height: 375px;
 }
 
 .rounded {
