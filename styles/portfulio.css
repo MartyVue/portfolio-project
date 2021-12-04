@@ -112,6 +112,18 @@ h3 {
   padding: fixed;
 }
 
+.img-self2 {
+  height: 375px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.about-rounded {
+  border-radius: 1.25rem;
+}
+
 .paragraph-detail {
   color: rgb(68, 58, 58);
   font-weight: normal;
