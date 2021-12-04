@@ -27,8 +27,8 @@ h2 {
   color: rgb(68, 58, 58);
   font-weight: bold;
   font-size: 72px;
-  margin-top: 70px;
-  padding-left: 80px;
+  /* margin-top: 70px; */
+  /* padding-left: 80px; */
 }
 
 h3 {
@@ -36,11 +36,11 @@ h3 {
   font-size: 25px;
 }
 
-p {
+.overview-description {
   color: rgb(68, 58, 58);
   font-weight: normal;
-  font-size: 25px;
-  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar-container {
@@ -90,6 +90,19 @@ p {
   padding: 100px 125px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-subheading {
+  font-weight: bold;
+}
+
+.about-p {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -103,6 +116,14 @@ p {
   color: rgb(68, 58, 58);
   font-weight: normal;
   font-size: 15px;
+}
+
+.contact-subheading {
+  font-weight: bold;
+}
+
+.contact-section {
+  padding: 160px 20px;
 }
 
 .footer {
@@ -164,6 +185,10 @@ p {
   margin-top: 54px;
 }
 
-.subheading {
+/* .subheading {
   margin-top: 50px;
+} */
+
+.img-self {
+  padding: 500px 20px;
 }
