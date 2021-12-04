@@ -107,6 +107,12 @@ h3 {
   text-align: center;
   padding: 150px;
 }
+
+/* Project */
+.project-section {
+  padding: 160px 125px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -215,6 +221,10 @@ h3 {
     font-size: 44px;
   }
 
+  .homepage-section {
+    padding: 30px;
+  }
+
   .about-section {
     text-align: center;
     padding: 20px;
@@ -232,6 +242,13 @@ h3 {
   .about-img {
     text-align: center;
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 120px;
+  }
+
+  .project-section {
+    text-align: center;
+    padding: 20px;
+    padding-top: 120px;
+    padding-left: 46px;
   }
 }
