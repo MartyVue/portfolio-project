@@ -113,6 +113,19 @@ h3 {
   padding: 160px 125px;
 }
 
+.project-title {
+  text-align: center;
+}
+
+.project-subheading {
+  font-size: 44px;
+}
+
+.project-img {
+  padding: 30px 30px 30px;
+  border-radius: 0.25rem;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -250,5 +263,13 @@ h3 {
     padding: 20px;
     padding-top: 120px;
     padding-left: 46px;
+  }
+
+  .project-subheading {
+    font-size: 34px;
+  }
+
+  .project-img {
+    padding: 20px;
   }
 }
