@@ -155,6 +155,7 @@ h3 {
 
 .contact-subheading {
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .contact-section {
@@ -272,4 +273,12 @@ h3 {
   .project-img {
     padding: 20px;
   }
+
+  .contact-section {
+    text-align: center;
+  }
+
+  /* .contact-subheading {
+    /* margin-bottom: 50px; */
+  } */
 }
