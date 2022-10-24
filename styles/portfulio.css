@@ -131,6 +131,9 @@ h3 {
   height: auto;
 }
 
+.project-img {
+  height: 285px;
+}
 .img-self {
   padding: fixed;
 }
